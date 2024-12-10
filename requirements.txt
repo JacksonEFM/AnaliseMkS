@@ -1,1 +1,3 @@
 plotly.express
+openpyxl
+pandas
