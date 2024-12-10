@@ -1,0 +1,74 @@
+bibliotecas:
+streamlit
+openpyxl
+plotly
+pandas
+
+
+Tipo de produto
+Datas
+Tipo de certificado
+OCD
+    Filtros
+        Na coluna "Certificado de Conformidade Técnica"
+        Faça a seguinte analise:
+            if NUMERO DE 1 - 150.000:
+                classifique como: IBRACE
+            elif  COM A FORMATAÇÃO xxx-xx-xx:
+                classifique como: ACERT
+            elif OCD AND !ABCP:
+                classifique como: BRICS
+            elif ABCP:
+                classifique como: ABCP
+            elif MODERNA:
+                classifique como: MODERNA
+            elif ICC:
+                classifique como: ICC
+            elif TÜV:
+                classifique como: TUV
+	        elif TEL:
+		        classifique como: ACTA
+            elif BRA:
+                classifique como: BR APPROVAL
+            elif BRC:
+                classifique como: BRACERT
+            elif CCPE:
+                classifique como: CCPE
+            elif CPQD:
+                classifique como: CPQD
+            elif CTCP:
+                classifique como: CTCP
+            elif DEKRA:
+                classifique como: DEKRA
+            elif ELD:
+                classifique como: ELDORADO
+            elif IBR:
+                classifique como: IBR TECH
+            elif TELECOM:
+                classifique como: INTERTEK
+            elif LPM:
+                classifique como: LPM
+            elif MT:
+                classifique como: MASTER
+            elif NCC:
+                classifique como: NCC
+            elif OCP:
+                classifique como: OCPTELLI
+            elif PCN:
+                classifique como: PCN
+            elif QC:
+                classifique como: QCCERT
+            elif 7C:
+                classifique como:SEVEN COMPLIANCE
+            elif UL-BR:
+                classifique como: UL
+            elif Versys:
+                classifique como: VERSYS
+            elif 100xxxxx:
+                classifique como: TECPAR CERT
+            else:
+                OUTROS
+
+
+
+
